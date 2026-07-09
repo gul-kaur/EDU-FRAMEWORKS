@@ -1,0 +1,33 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large files
+embeddings/*.npy
+embeddings/*.pt
+
+# Environment
+.env
+venv/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# SLURM logs
+logs/*.out
+logs/*.err
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+*.safetensors
